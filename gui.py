@@ -73,6 +73,7 @@ app = Tk()
 app.geometry("600x500")
 app.title("Calculus Calculator")
 app.resizable(False,False)
+app.iconbitmap("calc.ico")
 
 mainMenu = Menu(app)
 app.config(menu = mainMenu)
